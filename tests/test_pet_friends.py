@@ -214,7 +214,7 @@ def test_successful_update_self_pet_info(name='Мурзик', animal_type='Ко�
         raise Exception("There is no my pets")
 
 
-def test_successful_update_one_pet_param(name='', animal_type='', age=''):
+def test_successful_update_one_pet_param(name='', animal_type='Слон', age=''):
     """Проверяем возможность обновления только одного параметра информации о питомце"""
 
     # Получаем ключ auth_key и список своих питомцев
